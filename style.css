@@ -1,0 +1,48 @@
+.hover-string {
+      font-size: 40px;
+      color: black;
+      background-color: white;
+      transition: font-size 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .hover-string:hover {
+      font-size: 20px;
+      color: blue;
+      background-color: green;
+    }
+
+.image-container {
+      position: relative;
+      width: 400px;
+      height: auto;
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: white;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+     .caption-text {
+      position: absolute;
+      bottom: -60px;
+      left: 100px;
+      color: white;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+    .caption.active {
+      color: red;
+    }
+    .caption-text.active {
+      color: blue;
+    }
